@@ -1,0 +1,27 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environment (if you use one)
+venv/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints (if any)
+.ipynb_checkpoints/
+
+# MacOS system files (since you’re on Mac)
+.DS_Store
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Data files (optional: if using large CSVs or datasets)
+data/
+*.csv
+*.h5
+*.pkl
+
+# IDE/project files (VSCode)
+.vscode/
