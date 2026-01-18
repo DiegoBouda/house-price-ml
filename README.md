@@ -12,6 +12,9 @@ A machine learning application that predicts real estate prices using supervised
 ## Models
 - Random Forest Regressor
 
+## Model Interpretability
+Feature importance analysis was performed using the Random Forest model to identify which input variables had the greatest impact on price predictions.
+
 ## Evaluation
 Model performance evaluated using MAE and RMSE metrics.
 
