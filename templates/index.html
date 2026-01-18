@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>House Price Prediction</title>
+</head>
+<body>
+    <h2>House Price Prediction</h2>
+
+    <form method="post">
+        <input name="MedInc" placeholder="Median Income" required><br>
+        <input name="HouseAge" placeholder="House Age" required><br>
+        <input name="AveRooms" placeholder="Average Rooms" required><br>
+        <input name="AveBedrms" placeholder="Average Bedrooms" required><br>
+        <input name="Population" placeholder="Population" required><br>
+        <input name="AveOccup" placeholder="Average Occupancy" required><br>
+        <input name="Latitude" placeholder="Latitude" required><br>
+        <input name="Longitude" placeholder="Longitude" required><br><br>
+
+        <button type="submit">Predict</button>
+    </form>
+
+    {% if prediction %}
+        <h3>Predicted Price: {{ prediction | round(2) }}</h3>
+    {% endif %}
+</body>
+</html>
